@@ -1,0 +1,36 @@
+numerolf=input(': ')
+if (numerolf>0):
+    print('El número ingresado es positivo.')
+elif(numerolf<0):
+    print('El número ingresado es negativo.')
+else:
+    print('El número ingresado es 0.')
+
+numeroWhile=0
+while(numeroWhile<3):
+    numeroWhile+=1
+    print(numeroWhile)
+
+numeroWhile=2
+numeroWhile+=1
+print(numeroWhile)
+while(numeroWhile<3):
+    numeroWhile+=1
+    print(numeroWhile)
+
+numeroFor=0
+for numeroFor in range(3):
+    print(numeroFor)
+
+' Es que en Python no hay Switch'
+estacion='Verano'
+if estacion=='Verano':
+    print('La estación es Verano')
+elif estacion=='Otoño':
+    print('La estación es Otoño')
+elif estacion=='Primavera':
+    print('La estación es Primavera')
+elif estacion=='Invierno':
+    print('La estación es Invierno')
+else: 
+    print('La estación es Primavera')
