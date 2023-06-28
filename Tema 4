@@ -1,4 +1,4 @@
-numerolf=input(': ')
+numerolf=eval(input(': '))
 if (numerolf>0):
     print('El número ingresado es positivo.')
 elif(numerolf<0):
