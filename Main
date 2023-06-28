@@ -1,0 +1,12 @@
+def suma3( a, b, c):
+    return a+b+c
+def main():
+    print(suma3(1,2,3))
+class coche:
+    def __init__(self):
+        self.puertas=4
+    def aumentar(self):
+        self.puertas+=1
+coche=coche()
+coche.aumentar()
+print('El número de puertas que tiene el coche es: ',coche.puertas)
