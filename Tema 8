@@ -19,7 +19,7 @@ def main():
     persona=Persona()
     persona.setEdad(17)
     persona.setNombre('Cristian Quintero')
-    persona.setTelefono(3224292068)
+    persona.setTelefono(3224292222)
     print('Nombre: ', persona.getNombre())
     print('Edad:', persona.getEdad())
     print('Telefono: ', persona.getTelefono())
