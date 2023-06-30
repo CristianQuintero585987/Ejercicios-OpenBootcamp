@@ -1,0 +1,32 @@
+class Persona:
+    def __init__(self):
+        self.edad=None
+        self.nombre=None
+        self.teléfono=None
+class Cliente(Persona):
+    def __init__(self):
+        self.credito=None
+
+cliente=Cliente()
+cliente.edad=17
+cliente.nombre='Cristancho'
+cliente.teléfono='3224292222'
+cliente.credito=100000
+print('Edad: ',cliente.edad)
+print('Nombre: ',cliente.nombre)
+print('Teléfono: ',cliente.teléfono)
+print('Crédito: ',cliente.credito)
+
+class Trabajador(Persona):
+    def __init__(self):
+        self.salario=10
+
+trabajador=Trabajador()
+trabajador.edad=17
+trabajador.nombre='Cristancho'
+trabajador.teléfono='3224292222'
+trabajador.salario=1000000
+print('Edad: ',trabajador.edad)
+print('Nombre: ',trabajador.nombre)
+print('Teléfono: ',trabajador.teléfono)
+print('Salario: ',trabajador.salario)
