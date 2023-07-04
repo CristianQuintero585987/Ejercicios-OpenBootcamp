@@ -1,0 +1,16 @@
+class Vehículo():
+    def __init__(self):
+        self.color='Rojo'
+        self.ruedas=4
+        self.puertas=4
+class Coche(Vehículo):
+    def __init__(self):
+        self.vehículo=Vehículo()
+        self.velocidad=200
+        self.cilindrada=1500
+mercedes=Coche()
+print('Puertas ',mercedes.vehículo.puertas)
+print('Ruedas ',mercedes.vehículo.ruedas)
+print('Color ',mercedes.vehículo.color)
+print('Velocidad ',mercedes.velocidad)
+print('Cilindrada ',mercedes.cilindrada)
