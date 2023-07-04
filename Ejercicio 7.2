@@ -1,0 +1,8 @@
+import time
+tiempo=int(time.strftime('%H'))
+if tiempo>=19:
+    print('Es hora de ir a casa')
+else:
+    tmfalta=19-tiempo
+    tmMinutos=60-int(time.strftime('%M'))
+    print('Faltan ',tmfalta,'horas con ',tmMinutos,' minutos de trabajo')
