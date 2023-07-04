@@ -1,0 +1,17 @@
+class Alumno():
+    def __init__(self):
+        self.nombre='Pepito'
+        self.nota=3
+    def prnombre(self):
+        print(self.nombre)
+    def prnota(self):
+        print('Su nota es: ',self.nota)
+    def aprobar(self):
+        if self.nota>=3:
+            print(self.nombre,' aprobó')
+        else:
+            print(self.nombre,' no aprobó.')
+pepito=Alumno()
+pepito.prnombre()
+pepito.prnota()
+pepito.aprobar()
