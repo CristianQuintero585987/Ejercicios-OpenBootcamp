@@ -1,0 +1,12 @@
+import tkinter
+from tkinter import ttk
+window=tkinter.Tk()
+window.columnconfigure(0,weight=1)
+window.columnconfigure(4,weight=4)
+user_name=ttk.Label(window,text='Seleccione un país')
+user_name.grid(column=0,row=0,sticky=tkinter.W,padx=5,pady=5)
+list=['Colombia','Peru','Argentina','Ecuador']
+lista_i=tkinter.StringVar(value=list)
+listbox=tkinter.Listbox(window,height=10,listvariable=lista_i)
+listbox.grid(column=0,row=1,sticky=tkinter.W)
+window.mainloop()
