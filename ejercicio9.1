@@ -1,0 +1,7 @@
+países=input('Ingrese una serie de países separados por comas: ').title()
+list=países.split(',')
+list=sorted(list)
+set=set()
+for i in list:
+    set.add(i)
+print(set)
