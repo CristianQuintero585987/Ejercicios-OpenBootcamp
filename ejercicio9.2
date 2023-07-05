@@ -1,0 +1,10 @@
+def impar(lista):
+    from functools import reduce
+    def fimpar(x):
+        if x%2!=0:
+            return True
+        return False
+    listimp=list(filter( fimpar,lista))
+    def suma(a,b):
+        return a+b
+    return reduce(suma,listimp)
